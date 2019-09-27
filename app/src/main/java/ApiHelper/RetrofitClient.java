@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitClient {
     private static Retrofit retrofit = null;
     private BaseApiService uploadInterface;
-    public static final String BASE_URL_API = "https://api.surat.com/";
+    public static final String BASE_URL_API = "http://app.vimasolusi.id/api/v1/";
 
     public static Retrofit getClient(String BASE_URL_API)
     {

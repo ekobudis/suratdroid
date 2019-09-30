@@ -13,7 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".ChangePasswordActivity"></activity>
+        <activity android:name=".DisposisiBaruActivity" />
+        <activity android:name=".DisposisiActivity" />
+        <activity android:name=".SuratEntriActivity" />
+        <activity android:name=".SuratActivity" />
+        <activity android:name=".SignupActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
